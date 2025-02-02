@@ -114,7 +114,7 @@ export default function Home() {
           Artificial intelligence does more than just assist; it leads.
         </div>
         <div
-          class="flex justify-center items-center gap-3 self-start mt-9 text-base leading-loose"
+          class="flex justify-center items-center w-full gap-3 self-start mt-9 text-base leading-loose"
           role="status"
           aria-live="polite"
         >
