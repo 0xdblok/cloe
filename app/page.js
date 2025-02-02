@@ -12,7 +12,7 @@ export default function Home() {
           Cloe
         </h1>
 
-        <p className="text-center text-zinc-200 pt-2 font-extralight text-sm">
+        <p className="text-center text-zinc-700 pt-2 font-extralight text-sm">
           Powered by{" "}
         </p>
 
@@ -23,7 +23,7 @@ export default function Home() {
           alt=" Logo CHAN"
           className="mt-2 rounded-md"
         />
-        <h2 class="mt-2.5 text-2xl leading-none text-center text-gray-400">
+        <h2 class="mt-2.5 text-2xl leading-none text-center text-gray-700">
           Framework Builder
         </h2>
         <p className="text-center text-zinc-700 pt-2  animate-pulse font-extralight text-xs">
