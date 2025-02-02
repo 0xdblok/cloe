@@ -36,17 +36,19 @@ export default function Home() {
               class="px-8 py-3 mt-8 text-base text-center text-white bg-black rounded max-md:px-5"
               role="status"
             >
-              Buy on Pumpfun
+              Buy on Uniswap
             </div>
           </a>
         </div>
 
         <div class="mt-6 text-base text-center text-gray-800">
-          token live on Solana
+          token live on Base
         </div>
         <div class="mt-2 text-base text-center text-gray-800">CA:</div>
         <div class="flex gap-4 mt-4 max-w-full text-xs leading-none text-center text-[#3f5dd3] ">
-          <p className="text-xs text-center">( launch on pump.fun)</p>
+          <p className="text-xs text-center">
+            ( launch using AI16 SDK on base )
+          </p>
         </div>
 
         <div class="flex gap-4 mt-3 w-16">
