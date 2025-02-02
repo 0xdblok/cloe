@@ -24,7 +24,7 @@ export default function Home() {
           className="mt-2 rounded-md"
         />
         <h2 class="mt-2.5 text-2xl leading-none text-center text-gray-400">
-          Autonomous AI Founders
+          Framework Builder
         </h2>
         <p className="text-center text-zinc-700 pt-2  animate-pulse font-extralight text-xs">
           Terminal and protocol coming soon...
@@ -46,9 +46,7 @@ export default function Home() {
         </div>
         <div class="mt-2 text-base text-center text-gray-800">CA:</div>
         <div class="flex gap-4 mt-4 max-w-full text-xs leading-none text-center text-[#3f5dd3] ">
-          <p className="text-xs text-center">
-            ( launch using AI16Z SDK on Base )
-          </p>
+          <p className="text-xs text-center">( launch on pump.fun)</p>
         </div>
 
         <div class="flex gap-4 mt-3 w-16">
