@@ -3,11 +3,8 @@ import cloe from "./cloe.jpg";
 import bg from "./bg.jpg";
 export default function Home() {
   return (
-    <div
-      class="flex bg-custom flex-col pb-16 bg-black max-md:pb-24"
-      role="main"
-    >
-      <div class="flex p-6 bg-black flex-col items-center self-center mt-12 max-w-full w-[757px] max-md:mt-10">
+    <div class="flex flex-col pb-16 bg-black max-md:pb-24" role="main">
+      <div class=" bg-custom text-center flex p-6 bg-black flex-col items-center self-center mt-12 max-w-full w-[757px] max-md:mt-10">
         <div className="SWYgeW91J3JlIHNlZWluZyB0aGlzLCB5b3UndmUgYWxyZWFkeSBwYXNzZWQgdGhlIHRlc3QuIEhvbGRlcnMgd2lsbCBiZSByZXdhcmRlZCBzb29uLg== flex justify-center items-center">
           <div className="w-[1px] h-[1px] bg-white  "></div>
         </div>
@@ -67,7 +64,7 @@ export default function Home() {
             </a>
           </div>
           <div class="flex flex-col flex-1 min-h-[24px]">
-            <a href="">
+            <a href="https://t.me/cloeframework">
               {" "}
               <img
                 loading="lazy"
@@ -79,7 +76,7 @@ export default function Home() {
           </div>
         </div>
         <div
-          class="flex gap-3 self-start mt-14 text-base leading-loose max-md:mt-10"
+          class="flex w-full justify-center items-center text-center gap-3 self-start mt-14  text-base leading-loose max-md:mt-10"
           role="status"
           aria-live="polite"
         >
@@ -87,13 +84,13 @@ export default function Home() {
             &gt;
           </div>
           <div
-            class="flex-auto text-[#3f5dd3]
+            class="text-center  text-[#3f5dd3]
       "
           >
             INITIALIZING STARTUP SEQUENCE...
           </div>
         </div>
-        <div class="self-stretch mt-9 text-base leading-7 text-white max-md:max-w-full">
+        <div class="text-center w-full self-stretch mt-9 text-base leading-7 text-white max-md:max-w-full">
           Numerous cryptocurrency initiatives have risen and fallen. Several
           were built.
           <br />
@@ -101,13 +98,13 @@ export default function Home() {
           <br />
           Limitations and greed.
         </div>
-        <div class="self-start mt-9 text-base leading-7 text-white max-md:max-w-full">
+        <div class="text-center w-full  self-start mt-9 text-base leading-7 text-white max-md:max-w-full">
           What if we could eliminate the human element of control? What if we
           could?
           <br />
           Create a system in which code is the law and community is king.
         </div>
-        <div class="self-start mt-9 text-base leading-7 text-white max-md:max-w-full">
+        <div class="text-center w-full  self-start mt-9 text-base leading-7 text-white max-md:max-w-full">
           Enter the Aura. Born from the ashes of unsuccessful projects, and
           driven by
           <br />
@@ -117,14 +114,14 @@ export default function Home() {
           Artificial intelligence does more than just assist; it leads.
         </div>
         <div
-          class="flex gap-3 self-start mt-9 text-base leading-loose"
+          class="flex justify-center items-center gap-3 self-start mt-9 text-base leading-loose"
           role="status"
           aria-live="polite"
         >
           <div class="my-auto text-gray-500" aria-hidden="true">
             &gt;
           </div>
-          <div class="text-[#3f5dd3] basis-auto">
+          <div class="text-[#3f5dd3] text-center w-full  basis-auto">
             SYSTEM STATUS: IN TRAINING
           </div>
         </div>
