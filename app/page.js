@@ -3,10 +3,10 @@ import cloe from "./cloe.jpg";
 import bg from "./bg.jpg";
 export default function Home() {
   return (
-    <div class="flex flex-col pb-16 bg-black max-md:pb-24" role="main">
-      <div class=" bg-custom text-center flex p-6 bg-black flex-col items-center self-center mt-12 max-w-full w-[757px] max-md:mt-10">
+    <div class="flex flex-col  text-black  max-md:pb-24" role="main">
+      <div class=" bg-white text-center text-black flex p-6 flex-col items-center self-center mt-12 max-w-full w-[757px] max-md:mt-10">
         <div className="SWYgeW91J3JlIHNlZWluZyB0aGlzLCB5b3UndmUgYWxyZWFkeSBwYXNzZWQgdGhlIHRlc3QuIEhvbGRlcnMgd2lsbCBiZSByZXdhcmRlZCBzb29uLg== flex justify-center items-center">
-          <div className="w-[1px] h-[1px] bg-white  "></div>
+          <div className="w-[1px] h-[1px] bg-white text-black "></div>
         </div>
         <h1 class="mt-8 text-6xl tracking-tighter leading-none text-center text-[#3f5dd3] max-md:max-w-full max-md:text-4xl">
           Cloe
@@ -26,14 +26,14 @@ export default function Home() {
         <h2 class="mt-2.5 text-2xl leading-none text-center text-gray-400">
           Autonomous AI Founders
         </h2>
-        <p className="text-center text-zinc-100 pt-2  animate-pulse font-extralight text-xs">
+        <p className="text-center text-zinc-700 pt-2  animate-pulse font-extralight text-xs">
           Terminal and protocol coming soon...
         </p>
         <div className="flex gap-4">
           <a className=" pt-4" href="">
             {" "}
             <div
-              class="px-8 py-3 mt-8 text-base text-center text-black bg-white rounded max-md:px-5"
+              class="px-8 py-3 mt-8 text-base text-center text-white bg-black rounded max-md:px-5"
               role="status"
             >
               Buy on Pumpfun
@@ -41,10 +41,10 @@ export default function Home() {
           </a>
         </div>
 
-        <div class="mt-6 text-base text-center text-gray-400">
+        <div class="mt-6 text-base text-center text-gray-800">
           token live on Solana
         </div>
-        <div class="mt-2 text-base text-center text-gray-400">CA:</div>
+        <div class="mt-2 text-base text-center text-gray-800">CA:</div>
         <div class="flex gap-4 mt-4 max-w-full text-xs leading-none text-center text-[#3f5dd3] ">
           <p className="text-xs text-center">
             ( launch using AI16Z SDK on Base )
@@ -90,7 +90,7 @@ export default function Home() {
             INITIALIZING STARTUP SEQUENCE...
           </div>
         </div>
-        <div class="text-center w-full self-stretch mt-9 text-base leading-7 text-white max-md:max-w-full">
+        <div class="text-center text-gray-800 w-full self-stretch mt-9 text-base leading-7  max-md:max-w-full">
           Numerous cryptocurrency initiatives have risen and fallen. Several
           were built.
           <br />
@@ -98,13 +98,13 @@ export default function Home() {
           <br />
           Limitations and greed.
         </div>
-        <div class="text-center w-full  self-start mt-9 text-base leading-7 text-white max-md:max-w-full">
+        <div class="text-center w-full text-gray-800  self-start mt-9 text-base leading-7 e max-md:max-w-full">
           What if we could eliminate the human element of control? What if we
           could?
           <br />
           Create a system in which code is the law and community is king.
         </div>
-        <div class="text-center w-full  self-start mt-9 text-base leading-7 text-white max-md:max-w-full">
+        <div class="text-center w-full text-gray-800 self-start mt-9 text-base leading-7  max-md:max-w-full">
           Enter the Aura. Born from the ashes of unsuccessful projects, and
           driven by
           <br />
@@ -126,10 +126,12 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      <p className="text-center text-zinc-200 pt-28 pb- font-extralight text-sm">
-        All Rights Reserve ©{" "}
-      </p>
+      <div className="bg-black">
+        {" "}
+        <p className="text-center text-zinc-700 pt-8 pb-8 pb- font-extralight text-sm">
+          All Rights Reserve ©{" "}
+        </p>
+      </div>
     </div>
   );
 }
