@@ -30,7 +30,10 @@ export default function Home() {
           Terminal and protocol coming soon...
         </p>
         <div className="flex gap-4">
-          <a className=" pt-4" href="">
+          <a
+            className=" pt-4"
+            href="https://pump.fun/coin/F4yEF28pzwNxKrkM51yZkCpvyy4uVqpAxxd6XsLkpump"
+          >
             {" "}
             <div
               class="px-8 py-3 mt-8 text-base text-center text-white bg-black rounded max-md:px-5"
@@ -44,7 +47,9 @@ export default function Home() {
         <div class="mt-6 text-base text-center text-gray-800">
           token live on Solana
         </div>
-        <div class="mt-2 text-base text-center text-gray-800">CA:</div>
+        <div class="mt-2 text-base text-center text-gray-800">
+          CA: F4yEF28pzwNxKrkM51yZkCpvyy4uVqpAxxd6XsLkpump
+        </div>
         <div class="flex gap-4 mt-4 max-w-full text-xs leading-none text-center text-[#3f5dd3] ">
           <p className="text-xs text-center">( launch on pumpfun )</p>
         </div>
