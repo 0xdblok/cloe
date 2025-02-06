@@ -44,7 +44,9 @@ export default function Home() {
         <div class="mt-6 text-base text-center text-gray-800">
           token live on Solana
         </div>
-        <div class="mt-2 text-base text-center text-gray-800">CA: TBA</div>
+        <div class="mt-2 text-base text-center text-gray-800">
+          CA: 7qsbMLAEjmuqBN7cYzweRwiH1tvSePMFTakdQSvwpump
+        </div>
         <div class="flex gap-4 mt-4 max-w-full text-xs leading-none text-center text-[#3f5dd3] ">
           <p className="text-xs text-center">( launch on pumpfun )</p>
         </div>
