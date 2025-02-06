@@ -9,7 +9,7 @@ export default function Home() {
           <div className="w-[1px] h-[1px] bg-white text-black "></div>
         </div>
         <h1 class="mt-8 text-6xl tracking-tighter leading-none text-center text-[#3f5dd3] max-md:max-w-full max-md:text-4xl">
-          Cloe
+          𝑪𝑳𝑶𝑬
         </h1>
 
         <p className="text-center text-zinc-700 pt-2 font-extralight text-sm">
