@@ -30,7 +30,10 @@ export default function Home() {
           Terminal and protocol coming soon...
         </p>
         <div className="flex gap-4">
-          <a className=" pt-4" href="">
+          <a
+            className=" pt-4"
+            href="https://app.uniswap.org/swap?chain=base&inputCurrency=NATIVE&outputCurrency=0xe2e06e959204b3af43a32c95a5fd601501b4b2ad&value=0.07&field=input"
+          >
             {" "}
             <div
               class="px-8 py-3 mt-8 text-base text-center text-white bg-black rounded max-md:px-5"
