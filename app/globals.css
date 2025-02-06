@@ -2,23 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-/*
-.bg-custom {
-  background-image: url('./bg.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: repeat;
-}
-
-*/
-.bg-custom {
-  background-image: url('./bg.jpg'); /* Use absolute path from /public */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%; /* Full viewport width */
-  height: 100; /* Full viewport height */
-}
-
