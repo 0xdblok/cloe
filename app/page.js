@@ -44,7 +44,9 @@ export default function Home() {
         <div class="mt-6 text-base text-center text-gray-800">
           token live on Base
         </div>
-        <div class="mt-2 text-base text-center text-gray-800">CA: TBA</div>
+        <div class="mt-2 text-base text-center text-gray-800">
+          CA: 0xE2e06E959204b3aF43A32c95a5fd601501B4b2aD
+        </div>
         <div class="flex gap-4 mt-4 max-w-full text-xs leading-none text-center text-[#3f5dd3] ">
           <p className="text-xs text-center">( launch using AI16Z SDK )</p>
         </div>
