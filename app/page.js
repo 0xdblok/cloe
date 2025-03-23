@@ -1,14 +1,15 @@
 import Image from "next/image";
-import cloe from "./cloe.jpg";
+import cloe from "./cloe.jpg"
+import cloe2 from "./cloe2.jpg"
 import bg from "./bg.jpg";
 export default function Home() {
   return (
-    <div class="flex flex-col  text-black  max-md:pb-24" role="main">
-      <div class=" bg-white text-center text-black flex p-6 flex-col items-center self-center mt-12 max-w-full w-[757px] max-md:mt-10">
+    <div class="flex flex-col bg-gray-100 text-black  max-md:pb-24" role="main">
+      <div class="  text-center text-black flex p-6 flex-col items-center self-center mt-12 max-w-full w-[757px] max-md:mt-10">
         <div className="SWYgeW91J3JlIHNlZWluZyB0aGlzLCB5b3UndmUgYWxyZWFkeSBwYXNzZWQgdGhlIHRlc3QuIEhvbGRlcnMgd2lsbCBiZSByZXdhcmRlZCBzb29uLg== flex justify-center items-center">
           <div className="w-[1px] h-[1px] bg-white text-black "></div>
         </div>
-        <h1 class="mt-8 text-6xl tracking-tighter leading-none text-center text-[#3f5dd3] max-md:max-w-full max-md:text-4xl">
+        <h1 class="mt-8 text-6xl tracking-tighter leading-none text-center text-[#FCE93C] max-md:max-w-full max-md:text-4xl">
           𝑪𝑳𝑶𝑬
         </h1>
 
@@ -19,7 +20,7 @@ export default function Home() {
         <Image
           width={360}
           height={160}
-          src={cloe}
+          src={cloe2}
           alt=" Logo CHAN"
           className="mt-2 rounded-md"
         />
@@ -45,12 +46,12 @@ export default function Home() {
         </div>
 
         <div class="mt-6 text-base text-center text-gray-800">
-          token live on Base
+          token live on BNB
         </div>
         <div class="mt-2 text-base text-center text-gray-800">
-          CA: 0xE2e06E959204b3aF43A32c95a5fd601501B4b2aD
+     CA :
         </div>
-        <div class="flex gap-4 mt-4 max-w-full text-xs leading-none text-center text-[#3f5dd3] ">
+        <div class="flex gap-4 mt-4 max-w-full text-xs leading-none text-center text-[#FCE93C] ">
           <p className="text-xs text-center">( launch using AI16Z SDK )</p>
         </div>
 
@@ -87,7 +88,7 @@ export default function Home() {
             &gt;
           </div>
           <div
-            class="text-center  text-[#3f5dd3]
+            class="text-center  text-[#FCE93C]
       "
           >
             INITIALIZING STARTUP SEQUENCE...
@@ -124,7 +125,7 @@ export default function Home() {
           <div class="my-auto text-gray-500" aria-hidden="true">
             &gt;
           </div>
-          <div class="text-[#3f5dd3] text-center w-full  basis-auto">
+          <div class="text-[#FCE93C] text-center w-full  basis-auto">
             SYSTEM STATUS: IN TRAINING
           </div>
         </div>
